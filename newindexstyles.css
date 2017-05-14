@@ -5,12 +5,12 @@
 
         body {
             font-family: arial,helvetica,sans-serif;
-            background-image: url("https://mrbaker1917.github.io/RepinPeterCossacks.jpg");
+            background-image: url("https://mrbaker1917.com/RepinPeterCossacks.jpg");
 		background-color: maroon;
         }
         
         #maindiv {
-            background-image: url(images/sunback2.jpg);
+            background-image: url("https://mrbaker1917.com//sunback2.jpg");
             width: 900px;
             height: auto;
             margin-top: 0;
