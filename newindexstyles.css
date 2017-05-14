@@ -73,6 +73,7 @@
             background-color: #0C6B0C;
             width: 100px;
             height: 100px;
+		opacity: 1.0;
         }
         #FCCampLogo {
             margin-top: 30px;
