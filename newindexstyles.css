@@ -63,8 +63,10 @@
         }
         
         #histvswarimage {
-            height: 100px;
-            padding: 0 0 0 8px;
+            width: 90px;
+            height: 90px;
+            margin-top: 5px;
+            margin:auto;
         }
         
         #FCCamplink {
@@ -73,10 +75,12 @@
             background-color: #0C6B0C;
             width: 100px;
             height: 100px;
-            opacity: 1.0;
+            padding: 5px;
         }
         #FCCampLogo {
-            margin-top: 30px;
+            width: 90px;
+            height: 90px;
+            margin-top: 5px;
         }
         #FCCampLogo a:hover {
             color: #0C6B0C;
