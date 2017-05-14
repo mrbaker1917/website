@@ -6,7 +6,7 @@
         body {
             margin: 10px;
             font-family: arial,helvetica,sans-serif;
-            background-image: url(RepinPeterCossacks.jpg);
+            background-image: url('RepinPeterCossacks.jpg');
         }
         
         #maindiv {
