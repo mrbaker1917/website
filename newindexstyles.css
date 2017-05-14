@@ -72,7 +72,7 @@
         #FCCamplink {
             float: right;
             border-radius: 10px;
-            background-color: #0C6B0C;
+            background-color: #046303;
             width: 100px;
             height: 100px;
             padding: 5px;
@@ -82,9 +82,9 @@
             height: 90px;
             margin-top: 5px;
         }
-        #FCCampLogo a:hover {
-            color: #0C6B0C;
-            background-color: #0C6B0C;
+        #FCCampLogo:hover {
+            color: #046303;
+            background-color: #046303;
             border-radius: 0px;
 }
         
