@@ -7,6 +7,8 @@
             font-family: arial,helvetica,sans-serif;
             background-image: url("https://mrbaker1917.github.io/RepinPeterCossacks.jpg");
 		background-color: maroon;
+		width:100%;
+    		background-size:cover;
         }
         
         #maindiv {
