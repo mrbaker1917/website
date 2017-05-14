@@ -6,8 +6,8 @@
         body {
             font-family: arial,helvetica,sans-serif;
             background-image: url("https://mrbaker1917.com/RepinPeterCossacks.jpg");
-		background-color: #b1b9c6;
-		width:100%;
+		    background-color: #b1b9c6;
+		    width:100%;
     		background-size:cover;
         }
         
@@ -73,7 +73,7 @@
             background-color: #0C6B0C;
             width: 100px;
             height: 100px;
-		opacity: 1.0;
+            opacity: 1.0;
         }
         #FCCampLogo {
             margin-top: 30px;
@@ -138,14 +138,15 @@
 
         p {
             font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-            font-size: 0.9em;
+            font-size: 1.1em;
             margin: 10px;
         }
         
         h4 {
             font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
             margin:0;
-            font-size: 1.1em;
+            font-size: 1.3em;
+            padding: 10px;
         }
         
         #bigH {
