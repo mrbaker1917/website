@@ -1,0 +1,19 @@
+body {
+  margin-top: 60px;
+}
+img {
+  margin: 10px;
+}
+.caption {
+  margin-bottom: 20px;
+}
+.time-line {
+  margin: auto;
+  width: 80%;
+  background-color: #f9f9f4;
+  border-radius: 5px;
+  padding: 10px;
+}
+h4 {
+  margin: 20px;
+}
