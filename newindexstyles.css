@@ -5,14 +5,14 @@
 
         body {
             font-family: arial,helvetica,sans-serif;
-            background-image: url("https://mrbaker1917.com/RepinPeterCossacks.jpg");
+            background-image: url("https://mrbaker1917.com/images/RepinPeterCossacks.jpg");
 		    background-color: #b1b9c6;
 		    width:100%;
     		background-size:cover;
         }
         
         #maindiv {
-            background-image: url("https://mrbaker1917.com/sunback2.jpg");
+            background-image: url("https://mrbaker1917.com/images/sunback2.jpg");
             width: 900px;
             height: auto;
             margin-top: 0;
