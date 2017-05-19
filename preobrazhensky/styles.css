@@ -1,5 +1,9 @@
 body {
   margin-top: 60px;
+  background-image: url("https://mrbaker1917.com/images/RepinPeterCossacks.jpg");
+		    background-color: #b1b9c6;
+		    width:100%;
+    		background-size:cover;
 }
 img {
   margin: 10px;
