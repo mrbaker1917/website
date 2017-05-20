@@ -1,0 +1,114 @@
+body {
+    padding-top: 80px;
+    font-family: garamond, serif;
+    background-image: url("images/rock_Lands_End.jpg");
+    background-color: #b1b9c6;
+    width:100%;
+    background-size:cover;
+}
+.container {
+    background-color: aliceblue;
+    opacity: 0.95;
+    padding: 10px;
+    border-radius: 10px;
+}
+h1 {
+  font-weight: 900;
+    font-size: 3em;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+  font-size: 1.5em;
+}
+#header {
+    padding: 20px;
+    height: 120px;
+}
+.headerImage {
+    margin-top: -10px;
+    float: right;
+    display: inline;
+    border: 1px solid black;
+   
+}
+
+.grid {
+  list-style: none;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-flow:row wrap;
+      flex-flow:row wrap;
+  -ms-flex-pack:distribute;
+      justify-content:space-around;
+  -webkit-box-align:start;
+      -ms-flex-align:start;
+          align-items:flex-start;
+  margin:0 auto;
+}
+
+.portfolioImage {
+  width: 500px;
+  float:left;
+  padding: 10px;
+}
+
+.btn-github {
+    background-color: #2BBA4C;
+    margin:10px;
+}
+
+.btn-facebook {
+    background-color: #3b5998;
+    margin:10px;
+}
+
+.btn-twitter {
+    background-color: #1DA1F2;
+    margin:10px;
+}
+
+.btn-freecodecamp {
+    background-color: #006400;
+    margin:10px;
+}
+
+.mySkillSets {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    width: 25%;
+}
+
+.myLanguages {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    width: 25%;
+}
+.myDegrees {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+}
+
+#aboutMe {
+    padding: 30px;
+}
+
+#contactMe {
+    padding: 30px;
+}
