@@ -84,8 +84,8 @@ h1 {
   border-radius: 0;
   border: 0;
   border-bottom: 5px solid maroon;
-  border-top: 1px solid maroon;
-  border-left: 1px solid maroon;
+  border-top: 1px inset maroon;
+  border-left: 1px inset maroon;
   box-shadow: none;
 }
 
