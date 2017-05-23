@@ -1,0 +1,97 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: ghostwhite;
+}
+
+a:hover {
+    text-decoration: none;
+    color: olive;
+    background-color: beige;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 5px;
+}
+
+.header {
+  background: beige;
+  margin-bottom: 40px;
+  padding: 10px 0;
+  border-bottom: 3px solid maroon;
+}
+
+.header img {
+  width: 90px;
+  margin: -10px 10px 0 0;
+}
+
+.header h1 {
+  margin: 0;
+  display: inline-block;
+}
+
+h1 {
+    color: olive;
+}
+
+.meme {
+  position: relative;
+}
+
+.top-caption,
+.bottom-caption {
+  font-family: Impact, sans-serif;
+  color: #fff;
+  text-shadow: #000 0px 0px 6px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+}
+
+.top-caption {
+  top: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.bottom-caption {
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.tool h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 25px;
+    font-weight: 700;
+}
+
+.tool form label {
+  margin-bottom: 10px;
+
+}
+
+.tool input {
+  border-radius: 0;
+  border: 0;
+  border-bottom: 5px solid maroon;
+  border-top: 1px solid maroon;
+  border-left: 1px solid maroon;
+  box-shadow: none;
+}
+
+input[type="text"]:focus {
+  border: 0;
+  border-bottom: 5px solid maroon;
+  outline: 0;
+  box-shadow: none;
+}
