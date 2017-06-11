@@ -1,0 +1,57 @@
+body {
+    background-color: antiquewhite; 
+    font-family: Garamond, serif;
+}
+
+h1 {
+    margin: auto 0;
+    text-align: center;
+    font-weight: 900;
+    font-size: 400%;
+    background-color:darkolivegreen;
+    color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 100%;
+    quotes: "\201C" "\201D";
+}
+
+.header {
+    margin: auto 0;
+    padding: 20px;
+}
+
+.quoteBox {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 900;
+    font-size: 400%;
+    background-color:darkolivegreen;
+    color: antiquewhite;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    min-height: 400px;
+}
+
+#quote {
+
+}
+
+button {
+    font-size: 0.5em;
+    background-color: darkolivegreen;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    border: 2px solid antiquewhite;
+}
+
+button:hover {
+    background-color: antiquewhite;
+    color:darkolivegreen;
+}

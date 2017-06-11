@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>mrbaker1917.com</title>
+        <link rel="shortcut icon" href="https://mrbaker1917.com/peacefavicon.ico" type="x-icon" />
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <div id="container">
+            <div class="header">
+                <h1>Welcome to the Random "Quote" Machine!</h1>
+            </div>
+            <div class="quoteBox">
+                <h2>"<span id="quote">This is a stand-in for a real quotation.</span>"</h2>
+                <h3 id="author">Mark R. Baker</h3>
+                <button>New Quotation</button>
+            </div>
+        </div>
+        
+        <script>
+            $(document).ready(function() {
+                $("button").on("click", function() {
+                    randomNum = Math.floor(Math.random()*10);
+                    var newQuote;
+                    var author;
+                    switch(randomNum) {
+                        case 1:
+                            newQuote = "To Be or Not To Be, that is the question!";
+                            author = "William Shakespeare";
+                            break;
+                        case 2: 
+                            newQuote = "It is a far better thing I do than I have every done before.";
+                            author = "Charles Dickens";
+                            break;
+                        case 3:
+                            newQuote = "War is what happens when language fails.";
+                            author = "Margaret Atwood";
+                            break;
+                        case 4:
+                            newQuote = "Success is not final, failure is not fatal: it is the courage to continue that counts.";
+                            author = "Winston Churchill";
+                            break;
+                        case 5:
+                            newQuote = "A delusion is something that people believe in despite a total lack of evidence.";
+                            author = "Richard Dawkins";
+                            break;
+                        case 6:
+                            newQuote = "We must take sides. Neutrality helps the oppressor, never the victim. Silence encourages the tormentor, never the tormented.";
+                            author = "Elie Wiesel";
+                            break;
+                        case 7:
+                            newQuote = "Whenever you find yourself on the side of the majority, it is time to pause and reflect.";
+                            author = "Mark Twain";
+                            break;
+                        case 8:
+                            newQuote = "Wanton killing of innocent civilians is terrorism, not a war against terrorism.";
+                            author = "Noam Chomsky";
+                            break;
+                        case 9:
+                            newQuote = "The older I get, the surer I am that I'm not running the show.";
+                            author = "Leonard Cohen";
+                            break;
+                        case 10:
+                            newQuote = "How strange that nature does not knock, and yet does not intrude!";
+                            author = "Emily Dickinson";
+                            break;
+                        default:
+                            newQuote = "Pizza makes me think that anything is possible.";
+                            author = "Henry Rollins";
+                            break;
+                                    }
+                $("#quote").fadeToggle(1000, function() {
+                    $("#quote").text(newQuote).fadeIn(1000);
+                });
+                    $("#author").fadeToggle(1000, function() {
+                        $("#author").text(author).fadeIn(1000);
+                    });
+                });
+                
+            });
+        </script>
+        
+        
+        
+        
+    </body>
+</html>
