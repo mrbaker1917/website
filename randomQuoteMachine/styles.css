@@ -15,8 +15,11 @@ h1 {
 }
 
 h2 {
-    font-size: 100%;
-    quotes: "\201C" "\201D";
+    font-size: 150%;
+}
+
+span {
+    font-size: 75%;
 }
 
 .header {
