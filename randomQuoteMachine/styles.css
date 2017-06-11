@@ -27,6 +27,24 @@ span {
     padding: 20px;
 }
 
+#signature {
+    margin: auto 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    color: darkolivegreen;
+    font-size: 110%;
+    font-weight: 700;
+}
+#signature a:hover {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 5px;
+    background-color: darkolivegreen;
+    border-radius: 5px;
+}
+
 .quoteBox {
     margin-left: auto;
     margin-right: auto;
