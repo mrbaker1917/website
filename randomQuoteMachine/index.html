@@ -35,7 +35,7 @@
         <script>
             $(document).ready(function() {
                 $("button").on("click", function() {
-                    randomNum = Math.floor(Math.random()*10);
+                    randomNum = Math.floor(Math.random()*11);
                     var newQuote;
                     var author;
                     switch(randomNum) {
@@ -78,6 +78,10 @@
                         case 10:
                             newQuote = "How strange that nature does not knock, and yet does not intrude!";
                             author = "Emily Dickinson";
+                            break;
+                        case 11:
+                            newQuote = "We all know that a good example is more effective than advice. So set a good example, and it won't take long for others to follow.";
+                            author = "Anne Frank";
                             break;
                         default:
                             newQuote = "Pizza makes me think that anything is possible.";
