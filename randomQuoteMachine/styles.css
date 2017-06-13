@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: antiquewhite; 
     font-family: Garamond, serif;
@@ -21,6 +25,9 @@ h2 {
 span {
     font-size: 75%;
 }
+div {
+    position: relative;
+}
 
 .header {
     margin: auto 0;
@@ -28,14 +35,14 @@ span {
 }
 
 #signature {
-    margin: auto 0;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     padding: 10px;
     color: darkolivegreen;
     font-size: 110%;
     font-weight: 700;
+    display: inline-grid;
+    margin-left: 45%;
+    margin-right: auto;
 }
 #signature a:hover {
     text-decoration: none;
@@ -57,6 +64,7 @@ span {
     padding: 20px;
     width: 75%;
     min-height: 400px;
+    position: relative;
 }
 
 #quote {
@@ -86,10 +94,12 @@ button:hover {
 }
 img {
     width: 75px;
-    margin-top: -100px;
-    margin-left: -10px;
     background-color: darkolivegreen;
-    opacity: 0.5;
+    opacity: 0.6;
+    display: inline;
+    position: absolute;
+    float: left;
+    margin-top: -60px;
 }
 img:hover {
     background-color: antiquewhite;
