@@ -76,3 +76,11 @@ button:hover {
     background-color: antiquewhite;
     color:darkolivegreen;
 }
+
+#tweet {
+    font-size: 20px;
+}
+
+#facebook {
+    font-size: 20px;
+}
