@@ -82,5 +82,16 @@ button:hover {
 }
 
 #facebook {
-    font-size: 20px;
+    float: left;
+}
+img {
+    width: 75px;
+    margin-top: -100px;
+    margin-left: -10px;
+    background-color: darkolivegreen;
+    opacity: 0.5;
+}
+img:hover {
+    background-color: darkolivegreen;
+    opacity: 0.9;
 }
