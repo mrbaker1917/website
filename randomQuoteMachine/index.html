@@ -41,16 +41,16 @@
         <script>
             $(document).ready(function() {
                 $("button").on("click", function() {
-                    randomNum = Math.floor(Math.random()*11);
+                    randomNum = Math.floor(Math.random()*20);
                     var newQuote;
                     var author;
                     switch(randomNum) {
                         case 1:
-                            newQuote = "To Be or Not To Be, that is the question!";
+                            newQuote = "To be or not to be, that is the question!";
                             author = "William Shakespeare";
                             break;
                         case 2: 
-                            newQuote = "It is a far better thing I do than I have ever done before.";
+                            newQuote = "It is a far, far better thing that I do, than I have ever done; it is a far, far better rest that I go to than I have ever known.";
                             author = "Charles Dickens";
                             break;
                         case 3:
@@ -88,6 +88,42 @@
                         case 11:
                             newQuote = "We all know that a good example is more effective than advice. So set a good example, and it won't take long for others to follow.";
                             author = "Anne Frank";
+                            break;
+                        case 12:
+                            newQuote = "Let us think the unthinkable, let us do the undoable, let us prepare to grapple with the ineffable itself, and see if we may not eff it after all.";
+                            author = "Douglas Adams";
+                            break;
+                        case 13:
+                            newQuote = "Women who seek to be equal with men lack ambition.";
+                            author = "Timothy Leary";
+                            break;
+                        case 14:
+                            newQuote = "The tyrant grinds down his slaves and they don't turn against him, they crush those beneath them.";
+                            author = "Emily Bronte";
+                            break;
+                        case 15:
+                            newQuote = "I do not myself feel that any person who is really profoundly humane can believe in everlasting punishment.";
+                            author = "Bertrand Russell";
+                            break;
+                        case 16:
+                            newQuote = "It is forbidden to kill; therefore all murderers are punished unless they kill in large numbers and to the sound of trumpets.";
+                            author = "Voltaire";
+                            break;
+                        case 17:
+                            newQuote = "Life's most persistent and urgent question is: 'What are you doing for others?'";
+                            author = "Martin Luther King, Jr.";
+                            break;
+                        case 18:
+                            newQuote = "A good person will resist an evil system with his whole soul. Disobedience of the laws of an evil state is therefore a duty.";
+                            author = "Mahatma Ghandi";
+                            break;
+                        case 19:
+                            newQuote = "Books, you know, they’re not just commodities. The profit motive often is in conflict with the aims of art. We live in capitalism. Its power seems inescapable. So did the divine right of kings. Any human power can be resisted and changed by human beings. Resistance and change often begin in art, and very often in our art—the art of words.";
+                            author = "Ursula K. Le Guin";
+                            break;
+                        case 20:
+                            newQuote = "Come what come may, Time and the hour runs through the roughest day.";
+                            author = "William Shakespeare";
                             break;
                         default:
                             newQuote = "Pizza makes me think that anything is possible.";
