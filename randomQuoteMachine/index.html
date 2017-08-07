@@ -26,11 +26,8 @@
                 <h2>&ldquo;<span id="quote">Pizza makes me think that anything is possible.</span>&rdquo;</h2>
                 <h3 id="author">Henry Rollins</h3>
                 <button>New Quotation</button>
-                <div class="tweet"><a href="https://twitter.com/intent/tweet?url=https://mrbaker1917.com/randomQuoteMachine/" target="_blank" title="Tweet this quote!"><img src="Twitter_Logo_White_On_Image.png"/></a>
-                </div>
-            
-                <div class="facebook">
-                    <a href="https://www.facebook.com" target="_blank" title="Click to share on facebook."><img src="fb-transparent.png" /></a>
+                <div class="tweet">
+                    <iframe src="https://platform.twitter.com/widgets/tweet_button.html?size=m&url=https://mrbaker1917.com/randomQuoteMachine/&text='newQuote'" width="100" title="Tweet this quote!" style="border: 0; overflow: hidden;"></iframe>
                 </div>
             </div>
         </div>
@@ -40,10 +37,11 @@
         
         <script>
             $(document).ready(function() {
-                $("button").on("click", function() {
-                    randomNum = Math.floor(Math.random()*20);
                     var newQuote;
                     var author;
+                $("button").on("click", function() {
+                    randomNum = Math.floor(Math.random()*21);
+                    
                     switch(randomNum) {
                         case 1:
                             newQuote = "To be or not to be, that is the question!";
@@ -125,6 +123,9 @@
                             newQuote = "Come what come may, Time and the hour runs through the roughest day.";
                             author = "William Shakespeare";
                             break;
+                        case 21:
+                            newQuote = "Homo sapiens is the species that invents symbols in which to invest passion and authority, then forgets that symbols are inventions.";
+                            author = "Joyce Carol Oates";
                         default:
                             newQuote = "Pizza makes me think that anything is possible.";
                             author = "Henry Rollins";
