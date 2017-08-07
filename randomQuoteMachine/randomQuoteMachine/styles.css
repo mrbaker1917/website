@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: antiquewhite; 
+    font-family: Garamond, serif;
+}
+
+h1 {
+    margin: auto 0;
+    text-align: center;
+    font-weight: 900;
+    font-size: 400%;
+    background-color:darkolivegreen;
+    color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+span {
+    font-size: 75%;
+}
+div {
+    position: relative;
+}
+
+.header {
+    margin: auto 0;
+    padding: 20px;
+}
+
+#signature {
+    text-align: center;
+    padding: 10px;
+    color: darkolivegreen;
+    font-size: 110%;
+    font-weight: 700;
+    display: inline-grid;
+    margin-left: 45%;
+    margin-right: auto;
+}
+#signature a:hover {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 5px;
+    background-color: darkolivegreen;
+    border-radius: 5px;
+}
+
+.quoteBox {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 900;
+    font-size: 400%;
+    background-color:darkolivegreen;
+    color: antiquewhite;
+    border-radius: 10px;
+    padding: 20px;
+    width: 75%;
+    min-height: 400px;
+    position: relative;
+}
+
+button {
+    font-size: 0.5em;
+    background-color: darkolivegreen;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    border: 2px solid antiquewhite;
+}
+
+button:hover {
+    background-color: antiquewhite;
+    color:darkolivegreen;
+}
+
+.tweet {
+    float: right;
+    height: 30px;
+    padding-top: 50px;
+}
+
+.tweet:hover {
+    opacity: 0.9;
+}
+img:hover {
+    opacity: 1.0;
+}
