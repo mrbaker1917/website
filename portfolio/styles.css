@@ -7,6 +7,10 @@ body {
     background-size:cover;
 }
 
+img, embed, object, video {
+    max-width: 100%;
+}
+
 .container {
     background-color: rgba(157, 10, 10, 0.5);
     opacity: 0.95;
