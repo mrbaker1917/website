@@ -20,17 +20,17 @@ img, embed, object, video {
 }
 
 header {
-    min-width: 50%;
-    max-width: 100%;
     border-bottom: 2px solid #7d97ad;
-    padding: 10px;
+    padding-top: 10px;
     overflow: auto;
+    max-width: 800px;
 }
 
 .header_name {
     float: right;
     text-align: right;
     text-transform: uppercase;
+    padding-top: 10px;
 }
 
 #logo_image {
@@ -91,6 +91,7 @@ a:hover {
     padding: 5px 10px;
     background-color: black;
     border-radius: 2px;
+    opacity: 1.0;
 }
 
 .feature_sites {
