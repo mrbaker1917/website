@@ -22,6 +22,7 @@ header {
     border-bottom: 2px solid #7d97ad;
     padding-top: 10px;
     overflow: auto;
+    margin: 20px;
 }
 
 .header_name {
@@ -29,6 +30,10 @@ header {
     text-align: right;
     text-transform: uppercase;
     padding-top: 10px;
+}
+
+.udacity_logo {
+    
 }
 
 #logo_image {
