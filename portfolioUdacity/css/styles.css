@@ -12,6 +12,8 @@
 body {
     margin-left: 10px;
     margin-right: 10px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 img, embed, object, video {
