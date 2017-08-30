@@ -113,9 +113,10 @@ a:hover {
     
 }
 
-.section {
+section {
     display: flex;
     flex-wrap: wrap;
     max-width: 800px;
     margin: auto;
+    padding: 20px;
 }
