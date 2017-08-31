@@ -3,20 +3,24 @@
 }
 
 @media screen and (min-width: 10px) {
-    .section_head { width: 100%; order: 0; }
+    .section-head { width: 100%; order: 0; }
     .preo { width: 32%; order: 1; }
     .random { width: 32%; order: 3; }
     .meme { width: 32%; order: 2; }
 }
 
 body {
+    font-family: 'Droid Serif', serif;
     margin-left: 10px;
     margin-right: 10px;
     max-width: 900px;
     margin: 0 auto;
 }
 
-img, embed, object, video {
+img, 
+embed, 
+object, 
+video {
     max-width: 100%;
 }
 
@@ -27,18 +31,18 @@ header {
     margin: 20px;
 }
 
-.header_name {
+.header-name {
     float: right;
     text-align: right;
     text-transform: uppercase;
     padding-top: 10px;
 }
 
-.udacity_logo {
+.udacity-logo {
     
 }
 
-#logo_image {
+#logo-image {
     display: inline-block;
 }
 
@@ -48,19 +52,22 @@ h1 {
     letter-spacing: 2px;
     color: #2d3c49;
     float: right;
+    font-weight: 900;
 }
 
 h2 {
     margin-top: 20px;
     color: #2d3c49;
+    font-weight: 900;
 }
 
 h4 {
     font-size: 80%;
     color: #2d3c49;
+    font-weight: 900;
 }
 
-container {
+.container {
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
@@ -68,6 +75,7 @@ container {
     max-width: 100%;
     margin: auto;
 }
+
 main {
     opacity: 0.6;
     display: flex;
@@ -99,10 +107,9 @@ a:hover {
     padding: 5px 10px;
     background-color: black;
     border-radius: 2px;
-    opacity: 1.0;
 }
 
-.feature_sites {
+.feature-sites {
     display:flex;
     display: inline;
     border: 1px solid #2d3c49;
@@ -113,10 +120,10 @@ a:hover {
     
 }
 
-section {
+.feature-section {
     display: flex;
     flex-wrap: wrap;
     max-width: 800px;
     margin: auto;
-    padding: 20px;
+    padding: 0px 20px 0px 20px;
 }
