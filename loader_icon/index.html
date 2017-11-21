@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My loader</title>
+        <style>
+            body {
+                background-color: lightgray;
+            }
+            h1 {
+                font-size: 80px;
+            }
+            h2 {
+                font-size: 36px;
+                opacity: 0;
+                animation: appear 2s 3s forwards;
+            }
+            .container {
+                margin:4em;
+                text-align: center;
+                width: 100%;
+            }
+            .loader {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                border-left: solid 16px green;
+                border-top: solid 16px grey;
+                border-right: solid 16px blue;
+                border-bottom: solid 16px grey;
+                margin: 0 auto;
+                animation: spin 5s linear infinite;
+            }
+            @keyframes spin {
+                0% {
+                    transform: rotate(0deg) scale(1);
+                    background-color: red;
+                }
+                25% {
+                    border-top-color: red;
+                    border-bottom-color: red;
+                    background-color: yellow;
+                }
+                50% {
+                    transform: rotate(360deg) scale(1.1);
+                    border-top-color: yellow;
+                    border-bottom-color: yellow;
+                    background-color: orange;
+                }
+                75% {
+                    border-top-color: orange;
+                    border-bottom-color: orange;
+                    background-color: grey;
+                }
+                100% {
+                    transform: rotate(720deg) scale(1);
+                }
+            }
+            
+            @keyframes appear {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>This page takes forever to load.</h1>
+            <div class="loader"></div>
+            <h2>It actually never loads, you silly goose!</h2>
+        </div>
+    </body>
+</html>
