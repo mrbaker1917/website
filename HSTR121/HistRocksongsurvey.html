@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+ <head>
+ <title>HUMS 101 Song Survey</title>
+ 
+ <meta charset="utf-8" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ 
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+     
+<style>
+    #containment-wrapper {
+        width: 1100px;
+        height: 800px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin: auto;
+        border: 2px solid black;
+        opacity: 0.8;
+        padding: 10px;
+    }
+    body {
+        background-image:url('SgtpeppersInverted.jpg');
+        background-repeat: no-repeat;
+        align-content: center;
+        margin: auto;
+    
+    }
+    
+    #sortableList ul {
+        margin:0; 
+        list-style: none;
+        padding:0;
+    
+    }
+    
+    #sortableList li {
+        color: white;
+        background-color: maroon;
+        width: 300px;
+        border-radius:10px;
+        padding: 10px;
+        text-align: center;
+        margin:10px;
+        list-style: none;
+        float: left;
+        border: 1px ridge black;
+    }
+    a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    a:hover {
+        background-color: #ffffff;
+        color: maroon;
+        font-weight: 900;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    
+</style>
+ 
+ </head>
+ 
+ <body>
+     
+    <div id="containment-wrapper">
+        <h3>Click and drag these songs to rank them from best to worst all time:</h3>
+        <ul id="sortableList">
+            <li><a href="http://youtu.be/k7Yb6QSUtpY" target="_blank" title="Click to watch video of song.">The Beatles: Twist and Shout</a></li>
+            <li>The Rolling Stones: Brown Sugar</li>
+            <li>Sex Pistols: I am an anarchist</li>
+            <li>Nirvana: Smells like teen spirit</li>
+            <li>The Eagles: Hotel California</li>
+            <li>Elvis Presley: Heartbreak Hotel</li>
+            <li>Aerosmith: Walk this way</li>
+            <li>Supertramp: Breakfast in America</li>
+            <li>The Ramones: Blitzkrieg Bop</li>
+            <li>The Clash: I fought the law</li>
+            <li><a href="http://www.youtube.com/watch?v=qOM107PIxV8" target="_blank" title="Click to watch video of song.">sleater kinney: modern girl</a></li>
+            <li>Jefferson Airplane: White Rabbit</li>
+            <li>Jimi Hendrix: All along the watchtower</li>
+            <li>Guns N' Roses: Welcome To The Jungle</li>
+            <li>AC/DC: Back in black</li>
+            <li>Led Zeppelin: Whole lotta love</li>
+            <li>Black Sabbath: Paranoid</li>
+            <li>The Who: Won't get fooled again</li>
+            <li>Van Halen: Runnin' with the Devil</li>
+            <li>The Rolling Stones: Paint it black</li>
+            <li>Mamas and the Papas: California Dreamin'</li>
+            <li>The Animals: House of the Rising Sun</li>
+            <li>Steppenwolf: Born to be wild</li>
+            <li>Pink Floyd: Another brick in the wall, part 2</li>
+            <li>Lynyrd Skynyrd: Free Bird</li>
+            <li>The Beatles: Come together</li>
+            <li>Janis Joplin: Me and Bobby McGee</li>
+            <li><a href="http://www.youtube.com/watch?v=L0JOOEnRopM" target="_blank" title="Click to watch video of song.">Bruce Springsteen: I came for you</a></li>
+            <li><a href="http://www.youtube.com/watch?v=3MCHI23FTP8" target="_blank" title="Click to watch video of song.">Robert Johnson: Me and the Devil Blues</a></li>
+            <li><a href="http://www.youtube.com/watch?v=NmopYuF4BzY" target="_blank" title="Click to watch video of song.">Elvis Presley: That's allright, Mama (1954)</a></li>
+            <li><a href="http://www.youtube.com/watch?v=xtzRRwfOXus" target="_blank" title="Click to watch video of song">Procol Harum: Whiter Shade of Pale (1967)</a></li>
+            <li><a href="http://www.youtube.com/watch?v=-2GmzyeeXnQ" target="_blank" title="Click to watch video of song.">the kinks: you really got me (1964)</a></li>
+            <li><a href="http://www.youtube.com/watch?v=R3rnxQBizoU" target="_blank" title="Click to watch video of song.">The Rolling Stones: Gimme shelter (1969)</a></li>
+        </ul>
+    </div>
+     
+ <script>
+  
+     $("#sortableList").sortable();
+
+ </script>
+ 
+ </body>
+</html>
