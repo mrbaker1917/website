@@ -9,6 +9,7 @@ body {
         flex-direction: column;
         justify-content: flex-end;
         flex-wrap: wrap;
+    color: dimgrey;
     }
     
     h1 {
@@ -95,7 +96,7 @@ body {
         max-width: 900px;
         padding: 10px;
         text-align: left;
-        color: maroon;
+        color: grey;
         font-weight: 600;
         margin: auto;
         border: 1px dotted silver;
@@ -156,6 +157,7 @@ body {
         border: 1px dotted silver;
         border-radius: 10px;
         margin-top:10px;
+        color: dimgray;
     }
 
 #tableLinks {
@@ -300,7 +302,7 @@ table#assignments th {
 }
 td.assignDescript {
         text-align: left;
-        color:black;
+        color:dimgrey;
     }
     table#plan tr:nth-child(even) {
     background-color: #eee;
