@@ -45,7 +45,7 @@ body {
 	   color: #f4f2f2;
     }
     ul {
-        list-style-image: url('guitarBullet.jpg');
+        list-style-image: url('musicnote');
     }
     #container {
         display: block;
