@@ -9,7 +9,7 @@ body {
         flex-direction: column;
         justify-content: flex-end;
         flex-wrap: wrap;
-    color: dimgrey;
+        color: dimgrey;
     }
     
     h1 {
