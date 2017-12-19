@@ -11,7 +11,7 @@ body {
         flex-wrap: wrap;
         color: dimgrey;
         opacity: 0.8;
-        animation: 1s fadein 0.5 forwards;
+        animation: 2s fadein 0.5 forwards;
     }
     @keyframes fadein {
 	100% {
