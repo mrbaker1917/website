@@ -10,8 +10,14 @@ body {
         justify-content: flex-end;
         flex-wrap: wrap;
         color: dimgrey;
+        opacity: 0.8;
+        animation: 2s fadein 0.5 forwards;
     }
-    
+    @keyframes fadein {
+	100% {
+		opacity: 1;
+	   }
+    }
     h1 {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 28px;
@@ -55,7 +61,6 @@ body {
         border: 1px dotted silver;
         margin: auto;
         border-radius: 10px;
-        opacity: 0.95;
         padding: 5px;
     }
     
