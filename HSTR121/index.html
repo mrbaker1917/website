@@ -20,7 +20,9 @@
             <h2>Tuesdays, Wednesdays, Fridays, 8:30-9:20 am, COR B143</h2>
         </div>
         <div id="description">
-            <p>COURSE DESCRIPTION: This course is supposed to explore "central issues in post-1880 U.S. history by examining the interplay between political culture and popular music. Major themes include the rise and fall of Jim Crow segregation, technological change, Cold War culture, the Vietnam War and the protest movements, changing gender relations and the debate over globalization." I plan to focus the course more on contemporary events, and more on the origins and development of one of the most popular forms of modern musical expression: Rock and Roll. Topics include the origins of the genre in the southern United States, coming out of a mix of jazz, blues, country, and bluegrass music; the commercialization of rock music; the transformation of African-American music for white audiences; the British Invasions; transnational 1960s youth culture; the creation of mass music consumption; the means and the message (radio, MTV, napster, bittorrent, and iTunes); the internationalization of Rock music; the splintering of Rock and other related popular forms across the globe. Emphasis will be placed on the dual processes of Rock's strong tendency to question the status quo and capitalism's remarkable ability to co-opt this questioning.</p>
+            <p id="courseDescript">COURSE DESCRIPTION: This course is supposed to explore "central issues in post-1880 U.S. history by examining the interplay between political culture and popular music. Major themes include the rise and fall of Jim Crow segregation, technological change, Cold War culture, the Vietnam War and the protest movements, changing gender relations and the debate over globalization." 
+            <a href="JavaScript:void();" onClick="expandCourseDescript()">[Click to read more.]</a>
+            </p>
         </div>
         <div id="contact">
             <p>Instructor: Mark R. Baker, Ph.D.
@@ -300,6 +302,14 @@
             </table>
         </div>
     </div>
+    
+    <script>
+      function expandCourseDescript() {
+          var expandedpara = "COURSE DESCRIPTION: This course is supposed to explore 'central issues in post-1880 U.S. history by examining the interplay between political culture and popular music. Major themes include the rise and fall of Jim Crow segregation, technological change, Cold War culture, the Vietnam War and the protest movements, changing gender relations and the debate over globalization.' I plan to focus the course more on contemporary events, and more on the origins and development of one of the most popular forms of modern musical expression: Rock and Roll. Topics include the origins of the genre in the southern United States, coming out of a mix of jazz, blues, country, and bluegrass music; the commercialization of rock music; the transformation of African-American music for white audiences; the British Invasions; transnational 1960s youth culture; the creation of mass music consumption; the means and the message (radio, MTV, napster, bittorrent, and iTunes); the internationalization of Rock music; the splintering of Rock and other related popular forms across the globe. Emphasis will be placed on the dual processes of Rock's strong tendency to question the status quo and capitalism's remarkable ability to co-opt this questioning.";
+            document.getElementById("courseDescript").innerHTML = expandedpara;
+      }
+    
+    </script>
 
 </body>
 </html>
