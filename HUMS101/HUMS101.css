@@ -1,0 +1,31 @@
+body {
+    background: url("ColdWarimage.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+h1 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+h2 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+h3 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+ul {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+li {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+a {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: 800;
+}
