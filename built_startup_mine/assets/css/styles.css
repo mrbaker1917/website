@@ -272,6 +272,10 @@ header nav li {
     width: 60%;
 }
 
+.contact a {
+    color: black;
+}
+
 .contact form .btn {
     padding: 18px 42px;
 }
