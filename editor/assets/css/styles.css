@@ -13,6 +13,7 @@ html {
 
 ul, nav {
     list-style: none;
+    text-align: center;
 }
 
 a {
