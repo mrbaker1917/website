@@ -171,6 +171,7 @@ header nav li {
     background-color: #80a3db;
     margin: 20px;
     padding: 20px;
+    border-radius: 4px;
 }
 
 @keyframes slidefade {
