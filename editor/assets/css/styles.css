@@ -167,6 +167,12 @@ header nav li {
     animation: 1s slidefade 1s forwards;
 }
 
+.CVbtn {
+    background-color: #80a3db;
+    margin: 20px;
+    padding: 20px;
+}
+
 @keyframes slidefade {
     100% {
         opacity: 1;
