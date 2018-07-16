@@ -42,9 +42,6 @@
                     var author;
                 $("button").on("click", function() {
                     randomNum = Math.floor(Math.random()*21);
-											if (randomNum === randomNum) {
-												 randomNum = Math.floor(Math.random()*21);
-											} else {
                     
                     switch(randomNum) {
                         case 1:
@@ -134,7 +131,6 @@
                             newQuote = "Pizza makes me think that anything is possible.";
                             author = "Henry Rollins";
                             break;
-										}
                                     }
                 $("#quote").fadeToggle(1000, function() {
                     $("#quote").text(newQuote).fadeIn(1000);
