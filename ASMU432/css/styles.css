@@ -1,0 +1,337 @@
+body {
+        background-image:url('http://3.bp.blogspot.com/-etO1p25p1DU/T8PgMupMYpI/AAAAAAAADic/XCI9XigFmfc/s1600/beatles+5.jpg');
+        background-repeat: none;
+        background-size: 100%;
+        background-attachment: fixed;
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        color: dimgrey;
+        opacity: 0.8;
+        animation: 2s fadein 0.5 forwards;
+    }
+    @keyframes fadein {
+	100% {
+		opacity: 1;
+	   }
+    }
+    h1 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 28px;
+	font-weight: 900;
+	letter-spacing: 3px;
+	word-spacing: normal;
+	vertical-align: top;
+	text-align: center;
+	color: #f4f2f2;
+    }
+    
+    a {
+        text-decoration: none;
+        color:inherit;
+    }
+    a:hover {
+        color: silver;
+        background-color: maroon;
+        padding:1px;
+        border-radius:3px;
+    }
+    
+    h2 {
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	   font-size: 20px;
+	   line-height: 18px;
+	   font-weight: 900;
+	   letter-spacing: 3px;
+	   word-spacing: normal;
+	   vertical-align: top;
+	   text-align: center;
+	   color: #f4f2f2;
+    }
+    ul {
+        list-style-image: url('musicnote');
+    }
+    #container {
+        display: block;
+        max-width: 100%;
+        background-color: #F7F7F7;
+        border: 1px dotted silver;
+        margin: auto;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    #header {
+        height: auto;
+        background-color: maroon;
+        color: #f4f2f2;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        margin: auto;
+        padding: 5px;
+        text-align: center;
+    }
+    #contact {
+        background-color: #f4f2f2;
+        padding: 10px;
+        text-align: center;
+        font-weight: 900;
+        max-width: 50%;
+        margin: auto;
+        border: 1px dotted silver;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    #links {
+        background-color: #f4f2f2;
+        max-width: 900px;
+        padding: 10px;
+        text-align: center;
+        font-weight: 900;
+        margin: auto;
+        border: 1px dotted silver;
+        border-radius: 10px;
+        margin-top:10px;
+    }
+    #description {
+        background-color: #f4f2f2;
+        max-width: 900px;
+        padding: 10px;
+        text-align: left;
+        color: grey;
+        font-weight: 600;
+        margin: auto;
+        border: 1px dotted silver;
+        border-radius: 10px;
+        margin-top:10px;
+    }
+    #goals {
+        background-color: #f4f2f2;
+        max-width: 900px;
+        padding: 10px;
+        text-align: left;
+        font-weight: 900;
+        margin: auto;
+        border: 1px dotted silver;
+        border-radius: 10px;
+        margin-top:10px;
+    }
+    #books {
+        background-color: #f4f2f2;
+        max-width: 900px;
+        padding: 10px;
+        text-align: left;
+        font-weight: 900;
+        margin: auto;
+        border: 1px dotted silver;
+        border-radius: 10px;
+        margin-top:10px;
+    }
+    #classTime {
+        background-color: #f4f2f2;
+        max-width: 900px;
+        padding: 10px;
+        text-align: left;
+        font-weight: 900;
+        margin: auto;
+        border: 1px dotted silver;
+        border-radius: 10px;
+        margin-top:10px;
+    }
+    #schedule {
+        background-color: #f4f2f2;
+        max-width: 900px;
+        padding: 10px;
+        text-align: center;
+        font-weight: 900;
+        margin: auto;
+        border: 1px dotted silver;
+        border-radius: 10px;
+        margin-top:10px;
+    }
+    #assignments {
+        background-color: #f4f2f2;
+        max-width: 900px;
+        padding: 10px;
+        text-align: center;
+        font-weight: 900;
+        margin: auto;
+        border: 1px dotted silver;
+        border-radius: 10px;
+        margin-top:10px;
+        color: dimgray;
+    }
+
+#tableLinks {
+        background-color: #f4f2f2;
+        max-width: 900px;
+        padding: 10px;
+        text-align: center;
+        font-weight: 900;
+        margin: auto;
+        border: 1px dotted silver;
+        border-radius: 10px;
+        margin-top:10px;
+}
+    #finalStudyGuide {
+        background-color: #f4f2f2;
+        max-width: 900px;
+        padding: 10px;
+        text-align: center;
+        font-weight: 900;
+        font-size: 1.5em;
+        margin: auto;
+        border: 1px dotted maroon;
+        border-radius: 10px;
+        margin-top:10px;
+    }
+    #filmCrit {
+        background-color: #f4f2f2;
+        max-width: 500px;
+        padding: 10px;
+        text-align: center;
+        font-weight: 900;
+        margin: auto;
+        border: 1px dotted maroon;
+        border-radius: 10px;
+        margin-top:10px;
+    }
+    .backgroundImage {
+        background-color: #f4f2f2;
+        max-width: 200px;
+        padding: 5px;
+        text-align: center;
+        font-weight: 900;
+        margin: auto;
+        border: 1px dotted maroon;
+        border-radius: 10px;
+        margin-top:10px;
+        position: relative;
+    }
+    .backgroundImage:hover {
+        background-color: maroon;
+        color: silver;
+    }
+    .backgroundImageLink {
+        /* all rules required to make the whole div clickable */ 
+        position:absolute; 
+        max-width:100%;
+        height:100%;
+        top:0;
+        left: 0;
+        z-index: 1;
+        /* this is a fix for IE7-9 */
+        background-color:#f4f2f2;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";  
+        filter: alpha(opacity=0);  
+        opacity:0;  
+}
+    
+        .divLink {
+        background-color: #f4f2f2;
+        max-width: 50%;
+        padding: 5px;
+        text-align: center;
+        font-weight: 900;
+        margin: auto;
+        border: 1px dotted maroon;
+        border-radius: 10px;
+        margin-top:10px;
+        position: relative;
+    }
+    .divLink:hover {
+        background-color: maroon;
+        color: silver;
+    }
+    .divLinkLink {
+        /* all rules required to make the whole div clickable */ 
+        position:absolute; 
+        max-width:100%;
+        height:100%;
+        top:0;
+        left: 0;
+        z-index: 1;
+        /* this is a fix for IE7-9 */
+        background-color:#f4f2f2;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";  
+        filter: alpha(opacity=0);  
+        opacity:0;  
+}
+    #writeTips {
+        background-color: #f4f2f2;
+        max-width: 500px;
+        padding: 10px;
+        text-align: center;
+        font-weight: 900;
+        margin: auto;
+        border: 1px dotted maroon;
+        border-radius: 10px;
+        margin-top:10px;
+    }
+    table {
+    max-width:100%;
+}
+table, th, td {
+    border: 1px dotted maroon;
+    border-radius: 5px;
+}
+tr, th, td {
+    height: 50px;
+    padding: 5px;
+    text-align: center
+}
+th {
+    font-size: 1.2em;
+    }
+td.dates {
+        font-size: 0.8em;
+        max-width: 110px;
+    }
+td.readings {
+    font-size: 0.8em;
+        max-width: 130px;
+    }
+table#assignments tr:nth-child(even) {
+    background-color: #eee;
+}
+table#assignments tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#assignments th {
+    background-color: maroon;
+    color: white;
+    border-radius: 5px;
+}
+td.assignDescript {
+        text-align: left;
+        color:dimgrey;
+    }
+    table#plan tr:nth-child(even) {
+    background-color: #eee;
+}
+table#plan tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#plan th {
+    background-color: maroon;
+    color: white;
+    border-radius: 5px;
+}
+    caption {
+        font-size:200%;
+        color: aliceblue;
+        background-color: maroon;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    #midterm {
+        background-color: white;
+        color:maroon;
+        border-radius: 10px;
+        padding: 5px;
+        border: 1px dotted maroon;
+        font-size: 1.2em;
+    }
