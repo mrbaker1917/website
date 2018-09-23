@@ -309,16 +309,20 @@ td.assignDescript {
         text-align: left;
         color:dimgrey;
     }
-    table#plan tr:nth-child(even) {
-    background-color: #eee;
+table#plan tr:nth-child(even) {
+  background-color: #eee;
 }
 table#plan tr:nth-child(odd) {
-   background-color:#fff;
+  background-color:#fff;
 }
 table#plan th {
-    background-color: maroon;
-    color: white;
-    border-radius: 5px;
+  background-color: maroon;
+  color: white;
+  border-radius: 5px;
+}
+#plan {
+	width: 100%;
+	margin: auto;
 }
     caption {
         font-size:200%;
