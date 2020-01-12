@@ -56,7 +56,7 @@ body {
     }
     #container {
         display: block;
-        max-width: 100%;
+        max-width: 80%;
         background-color: #F7F7F7;
         border: 1px dotted silver;
         margin: auto;
