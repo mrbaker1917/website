@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+
 }
 
         body {
@@ -70,19 +71,19 @@
         }
         
         #FCCamplink {
-            float: right;
             border-radius: 10px;
             background-color: #046303;
             width: 100px;
             height: 100px;
             padding: 5px;
+            float: right;
         }
         #FCCampLogo {
-            width: 90px;
+            width: 95px;
             height: 90px;
-            margin-top: 5px;
+            margin-right: -5px;
         }
-        #FCCampLogo:hover {
+        #FCCampLogo a:hover {
             color: #046303;
             background-color: #046303;
             border-radius: 0px;
