@@ -4,403 +4,403 @@
 
 }
 
-        body {
-            font-family: arial,helvetica,sans-serif;
-            background-image: url("https://mrbaker1917.com/images/RepinPeterCossacks.jpg");
+body {
+    font-family: arial,helvetica,sans-serif;
+    background-image: url("https://mrbaker1917.com/images/RepinPeterCossacks.jpg");
 		    background-color: #b1b9c6;
 		    width:100%;
     		background-size:cover;
-        }
-        
-        #maindiv {
-            background-image: url("https://mrbaker1917.com/images/sunback2.jpg");
-            width: 900px;
-            height: auto;
-            margin-top: 0;
-            margin-right: auto;
-            margin-bottom: 50px;
-            margin-left: auto;
-            position: relative;
-            border: 1px ridge #999;
-            padding: 10px;
-            border-radius: 10px;
-            opacity: 0.95;
-        }
-        
-        #header {
-            background-color: #ffffff;
-            opacity: 0.8;
-            filter: alpha(opacity=60); /* For IE8 and earlier */
-            width: 500px;
-            height: 100px;
-            border: 1px solid #600;
-            border-radius: 10px;
-            float: left;
-            margin-left: 70px;
-        }    
-        
-        h2 {
-	       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-            font-size: 35px;
-            color: #600;
-            letter-spacing: 2px;
-            text-align: center;
-            margin: 0;
-            padding-top: 30px;
-        }
-        
-        .break {
-           clear:both; 
-        }
-            
-        #historians {
-            float: left;
-            border: 1px solid maroon;
-            padding:5px;
-            border-radius: 10px;
-            background-color: #FFFFFF;
-            width: 100px;
-            height: 100px;
-        }
-        
-        #histvswarimage {
-            width: 90px;
-            height: 90px;
-            margin-top: 5px;
-            margin-left: 5px;
-        }
-        
-        #FCCamplink {
-            border-radius: 10px;
-            border: 1px solid maroon;
-            background-color: #FFFFFF;
-            width: 100px;
-            height: 100px;
-            float: right;
-            font-size: 90px;
-            margin: 0 auto;
-        }
-        #FCCampLogo {
-            width: 80px;
-            height: 80px;
-            margin-top: 10px;
-            margin-left: 10px;
-        }
-        #menu  {           
-            width: 110px;
-            border: 1px solid #999;
-            border-radius: 10px;
-            float: left;
-            margin: 10px 0 0 0;
-            background-color: #ffffff;
-            opacity: 0.8;
-            filter: alpha(opacity=60); /* For IE8 and earlier */
-        }
-        
-        #menu ul {
-            list-style-type: none;
-            padding: 5px;
-            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-            font-size: 0.75em;
-            line-height: 2.5em;
-            font-weight: 900;
-        }
-        
-        a {
-            text-decoration: none;
-            color: #000000;
-            
-        }
-        
-        a:hover {
-            color: #9A140F;
-            border-radius: 5px;
-        }
-        
-        #maincontent {
-            background: rgba(0, 0, 0, 0.05);
-            width: 700px;
-            border: 1px solid #999;
-            border-radius: 10px;
-            float: left;
-            margin: 10px 0 0 20px;
-            padding: 15px;
-            opacity: 0.95;
-        }
-        
-        #intro {
-            background-color: #F5F3EE;
-            padding: 10px;
-            border: 1px solid #999;
-            border-radius: 10px;
-            float: left;
-        }
-
-        p {
-            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-            font-size: 1.1em;
-            margin: 10px;
-        }
-        
-        h4 {
-            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-            margin:0;
-            font-size: 1.3em;
-            padding: 10px;
-        }
-        
-        #bigH {
-            font-size: 1.7em;
-            font-weight: 900;
-            font-style: italic;
-        }
-
-        #footer {
-            background-color: #FFFFFF;
-            position:relative;
-            height:50px;
-            margin: 0 auto;
-            margin-top:10px;
-            margin-bottom:0;
-            opacity: 0.8;
-            filter: alpha(opacity=60); /* For IE8 and earlier */
-            border-radius: 10px;
-            border: 1px solid #999;
-        }
-
-        #footer p {
-            font-weight: 900;
-        }
-
-        h3 {
-            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-            font-weight: 900;
-            margin: 10px;
-        }
-
-        #babyJasper {
-            margin: 0 auto;
-            width: 320px;
-            height: 250px;
-            background-color: #F5F3EE;
-            opacity: 0.9;
-            border-radius: 10px;
-            padding: 10px;
-            text-align: center;
-            font-family:  "Palatino Linotype", "Book Antiqua", Palatino, serif;
-            font-weight: bold;
-            font-size: 12px;
-            border:1px dotted grey;
-        }
-
-        .info {
-            width: 600px;
-            background-color: #F5F3EE;
-            opacity: 0.9;
-            margin: 0 auto;
-            padding: 5px;
-            border-radius: 10px; 
-            border:1px dotted grey;
-        }
-
-        #ivanGroznyi {
-            float:right;
-            width: 310px;
-            background-color: #F5F3EE;
-            border-radius: 10px;
-            padding: 10px;
-            text-align: center;
-            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-            font-weight: bold;
-            font-size: 12px;
-        }
-
-        #courseOfferings {
-            float:left;
-            width: 300px;
-            background-color: #F5F3EE;
-            margin: 0 auto;
-            padding: 10px;
-            border-radius: 10px;
-            text-align: center;
-            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-            font-weight: bold;
-            border: 1px ridge #7C704E;
-        
-        }
-
-        #sultanGaliyev {
-            float:right;
-            width: 310px;
-            background-color: #F5F3EE;
-            border:1px dotted grey;
-            border-radius: 10px;
-            padding: 10px;
-            text-align: center;
-            font-family: serif;
-            font-weight: bold;
-            font-size: 12px;
-        }
-
-        img {
-            opacity: 1;
-            filter: alpha(opacity=100); /* For IE8 and earlier */
-        }
-
-        img:hover {
-            opacity: 1.0;
-            filter: alpha(opacity=100); /* For IE8 and earlier */
-        }
-        #fallenSoldier {
-            width: 300px;
-            float: right;
-            margin: 0;
-        }
-        #fear {
-            float: right;
-            width: 300px;
-            padding: 10px;
-            background-color: #F5F3EE;
-            border: 1px dotted #999;
-            border-radius: 5px;
-            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-            font-size: 0.8em;
-            font-weight: 900;
-
-        }
-        #biography {
-            float:left;
-            width: 300px;
-            background-color: #F5F3EE;
-            margin: 0 auto;
-            padding: 10px;
-            border-radius: 10px;
-            border:1px dotted grey;
-            text-align: left;
-            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-            font-weight: bold;
-        
-        }
-        #edmonton {
-            float:right;
-            width: 300px;
-            padding: 10px;
-            background-color: #F5F3EE;
-            border-radius: 10px;
-            border:1px dotted grey;
-            text-align: center;
-            font-size:12px;
-            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-            font-weight: bold;
-        }
-
-        #personalInterests {
-            float:right;
-            width: 310px;
-            background-color: #F5F3EE;
-            margin: 0 auto;
-            padding: 10px;
-            border-radius: 10px;
-            border:1px dotted grey;
-            text-align: left;
-            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-            font-weight: bold;
-        
-        }
-
-        #sunflower {
-            float: left;
-            width: 310px;
-            padding: 12px;
-            background-color: #F5F3EE;
-            border: 1px dotted #999;
-            border-radius: 10px;
-            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-            font-size: 12px;
-            font-weight: 900;
-        }
-
-        #favouriteLinks {
-            float: left;
-            background-color: #F5F3EE;
-            margin: 0 auto;
-            padding: 10px;
-            border-radius: 10px;
-            border:1px ridge grey;
-            text-align: left;
-            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-        }
-        
-        #favouriteLinks ul {
-            list-style-type: none;
-            padding: 0px;
-            margin-left: 20px;
-        }
-
-        #favouriteLinks ul li {
-            background-image: url('http://home.ku.edu.tr/~mbaker/images/linkImageSmall.png');
-            background-repeat: no-repeat;
-            background-position: 0px 3px; 
-            padding-left: 22px; 
-        }
-
-        #istanbulPhotosCaption {
-            background-color: #F5F3EE;
-            margin-top:20px;
-            padding: 5px;
-            border-radius: 10px;
-            border:1px ridge grey;
-            text-align: center;
-            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-            font-weight: 900;
-            opacity: 0.9;
-            filter: alpha(opacity=60); /* For IE8 and earlier */ 
-        }
-        
-        #videos {
-            float:inherit;
-            background-color: #F5F3EE;
-            width: 660px;
-            margin: 0 auto;
-            padding: 20px;
-            border-radius: 10px;
-            border:1px ridge grey;
-            text-align: center;
-            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-            font-size: 1.2em;
-            font-weight: 900;
-            opacity: 0.9;
-            filter: alpha(opacity=60); /* For IE8 and earlier */ 
-        }
-
-        /* Flaired edges, by Tomas Theunissen */
-		hr.style-seven {
-            height: 20px;
-            border-style: solid;
-            border-color: black;
-            border-width: 1px 0 0 0;
-            border-radius: 20px;
-        }
-        hr.style-seven:before { /* Not really supposed to work, but does */
-            display: block;
-            content: "";
-            height: 20px;
-            margin-top: -31px;    
-            border-style: solid;
-            border-color: black;
-            border-width: 0 0 1px 0;
-            border-radius: 20px;
 }
-        #kidsPhotos {
-            float: right;
-            background-color: #F5F3EE;
-            margin: 10px 0 0 5px;
-            padding: 5px;
-            border-radius: 10px;
-            border:1px ridge grey;
-            opacity: 0.9;
-            filter: alpha(opacity=60); /* For IE8 and earlier */
-            width: 760px;
+
+#maindiv {
+    background-image: url("https://mrbaker1917.com/images/sunback2.jpg");
+    width: 900px;
+    height: auto;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+    position: relative;
+    border: 1px ridge #999;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.95;
+}
+
+#header {
+    background-color: #ffffff;
+    opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    width: 500px;
+    height: 100px;
+    border: 1px solid #600;
+    border-radius: 10px;
+    float: left;
+    margin-left: 70px;
+}    
+
+h2 {
+	       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 35px;
+    color: #600;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.break {
+   clear:both; 
+}
+    
+#historians {
+    float: left;
+    border: 1px solid maroon;
+    padding:5px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 100px;
+}
+
+#histvswarimage {
+    width: 90px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#FCCamplink {
+    border-radius: 10px;
+    border: 1px solid maroon;
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 100px;
+    float: right;
+    font-size: 90px;
+    margin: 0 auto;
+}
+#FCCampLogo {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#menu  {   
+    width: 110px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    float: left;
+    margin: 10px 0 0 0;
+    background-color: #ffffff;
+    opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 5px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 0.75em;
+    line-height: 2.5em;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+a:hover {
+    color: #9A140F;
+    border-radius: 5px;
+}
+
+#maincontent {
+    background: rgba(0, 0, 0, 0.05);
+    width: 700px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    float: left;
+    margin: 10px 0 0 20px;
+    padding: 15px;
+    opacity: 0.95;
+}
+
+#intro {
+    background-color: #F5F3EE;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    float: left;
+}
+
+p {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1.1em;
+    margin: 10px;
+}
+
+h4 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin:0;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+#bigH {
+    font-size: 1.7em;
+    font-weight: 900;
+    font-style: italic;
+}
+
+#footer {
+    background-color: #FFFFFF;
+    position:relative;
+    height:50px;
+    margin: 0 auto;
+    margin-top:10px;
+    margin-bottom:0;
+    opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    border-radius: 10px;
+    border: 1px solid #999;
+}
+
+#footer p {
+    font-weight: 900;
+}
+
+h3 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: 900;
+    margin: 10px;
+}
+
+#babyJasper {
+    margin: 0 auto;
+    width: 320px;
+    height: 250px;
+    background-color: #F5F3EE;
+    opacity: 0.9;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family:  "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: bold;
+    font-size: 12px;
+    border:1px dotted grey;
+}
+
+.info {
+    width: 600px;
+    background-color: #F5F3EE;
+    opacity: 0.9;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px; 
+    border:1px dotted grey;
+}
+
+#ivanGroznyi {
+    float:right;
+    width: 310px;
+    background-color: #F5F3EE;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#courseOfferings {
+    float:left;
+    width: 300px;
+    background-color: #F5F3EE;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: bold;
+    border: 1px ridge #7C704E;
+
+}
+
+#sultanGaliyev {
+    float:right;
+    width: 310px;
+    background-color: #F5F3EE;
+    border:1px dotted grey;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+img {
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+#fallenSoldier {
+    width: 300px;
+    float: right;
+    margin: 0;
+}
+#fear {
+    float: right;
+    width: 300px;
+    padding: 10px;
+    background-color: #F5F3EE;
+    border: 1px dotted #999;
+    border-radius: 5px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 0.8em;
+    font-weight: 900;
+
+}
+#biography {
+    float:left;
+    width: 300px;
+    background-color: #F5F3EE;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px dotted grey;
+    text-align: left;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: bold;
+
+}
+#edmonton {
+    float:right;
+    width: 300px;
+    padding: 10px;
+    background-color: #F5F3EE;
+    border-radius: 10px;
+    border:1px dotted grey;
+    text-align: center;
+    font-size:12px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: bold;
+}
+
+#personalInterests {
+    float:right;
+    width: 310px;
+    background-color: #F5F3EE;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px dotted grey;
+    text-align: left;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: bold;
+
+}
+
+#sunflower {
+    float: left;
+    width: 310px;
+    padding: 12px;
+    background-color: #F5F3EE;
+    border: 1px dotted #999;
+    border-radius: 10px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+#favouriteLinks {
+    float: left;
+    background-color: #F5F3EE;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px ridge grey;
+    text-align: left;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#favouriteLinks ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 20px;
+}
+
+#favouriteLinks ul li {
+    background-image: url('http://home.ku.edu.tr/~mbaker/images/linkImageSmall.png');
+    background-repeat: no-repeat;
+    background-position: 0px 3px; 
+    padding-left: 22px; 
+}
+
+#istanbulPhotosCaption {
+    background-color: #F5F3EE;
+    margin-top:20px;
+    padding: 5px;
+    border-radius: 10px;
+    border:1px ridge grey;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: 900;
+    opacity: 0.9;
+    filter: alpha(opacity=60); /* For IE8 and earlier */ 
+}
+
+#videos {
+    float:inherit;
+    background-color: #F5F3EE;
+    width: 660px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    border:1px ridge grey;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1.2em;
+    font-weight: 900;
+    opacity: 0.9;
+    filter: alpha(opacity=60); /* For IE8 and earlier */ 
+}
+
+/* Flaired edges, by Tomas Theunissen */
+		hr.style-seven {
+    height: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 20px;
+    margin-top: -31px;    
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+#kidsPhotos {
+    float: right;
+    background-color: #F5F3EE;
+    margin: 10px 0 0 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border:1px ridge grey;
+    opacity: 0.9;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    width: 760px;
 }
 #pickles {
     width: 300px;
