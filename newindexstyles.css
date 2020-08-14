@@ -178,10 +178,9 @@ h3 {
     margin: 10px;
 }
 
-#babyJasper {
+#picklesBluff {
     margin: 0 auto;
-    width: 320px;
-    height: 250px;
+    width: 500px;
     background-color: #F5F3EE;
     opacity: 0.9;
     border-radius: 10px;
@@ -403,5 +402,5 @@ hr.style-seven:before { /* Not really supposed to work, but does */
     width: 760px;
 }
 #pickles {
-    width: 300px;
+    width: 500px;
 }
