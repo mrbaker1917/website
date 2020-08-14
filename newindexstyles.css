@@ -402,3 +402,6 @@
             filter: alpha(opacity=60); /* For IE8 and earlier */
             width: 760px;
 }
+#pickles {
+    width: 300px;
+}
