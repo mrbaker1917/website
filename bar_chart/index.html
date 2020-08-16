@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="eng">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bar charts</title>
+
+  <link rel="shortcut icon" href="./favicon.ico" type="x-icon" />
+  <link href="./style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  <div class="header">
+    <h1 class="title_head">Make Your OWN Bar Charts!</h1>
+  </div>
+  <div id="titleInput">
+    <label>Type here to change title:
+      <input id="dynamicTitleChange">
+    </label>
+  </div>
+  <div class="container">
+    <div class="y-axis">
+      <ul id="ticks">
+      </ul>
+      <h3 class="rotate" id="y_axis">Y_AXIS</h3>
+    </div>
+    <div id="barchart">
+    </div>
+  </div>
+  <div class="x-axis">
+    <div id="labelsPos">
+    </div>
+    <h3 id="x_axis">X_AXIS</h3>
+
+  </div>
+  <div id="valsForm">
+    <p class="valueInput">Enter values for your bars, separated by commas:
+      <input type="text" id="array" onfocus="this.value=''" value="1, 2, 3, 4, 5" name="array"></p>
+    <p class="valueInput">If you want to have a label for each value, enter them here in the same order as the bar
+      values above:
+      <input type="text" id="labels" onfocus="this.value=''" value="Mon, Tue, Wed, Thu, Fri" name="labels"></p>
+    <div>
+      <div class="valueInput">If you do not want the default chart settings, you can specify your own below (any field
+        not
+        changed will use default):
+        <ul id="optionsUl">
+          <li><label>Chart Height (in px):
+              <input type="text" id="chartHeight" value="500" onfocus="this.value=''" name="chartHeight">
+            </label>
+          </li>
+          <li>
+            <label>If you want to choose specific colors for bars, enter the colors here:
+              <input type="text" name="colors" id="colors" value="" onfocus="this.value=''" name="colors">
+            </label>
+          </li>
+          <li>
+            <label>Bar spacing (space between bars in px):
+              <input type="text" id="barMargin" value="2px" onfocus="this.value=''" name="barMargin">
+            </label>
+          </li>
+          <li>
+            <label>Color of data point:
+              <input type="text" id="dataColor" value="black" onfocus="this.value=''" name="dataColor">
+            </label>
+          </li>
+          <li>
+            <label>Position of data point inside bar:
+              <div class="radio">
+                <input type="radio" id="top" value="flex-start" name="dataPosition" value="top">
+                <label for="top">top</label>
+              </div>
+              <div class="radio">
+                <input type="radio" id="middle" value="center" name="dataPosition" value="middle">
+                <label for="middle">middle</label>
+              </div>
+              <div class="radio">
+                <input type="radio" id="bottom" value="flex-end" name="dataPosition" value="bottom">
+                <label for="bottomw">bottom</label>
+              </div>
+            </label>
+          </li>
+          <li>
+            <label>X-Axis Label:
+              <input type="text" id="x_axis" value="x-axis" onfocus="this.value=''" name="x_axis">
+            </label>
+          </li>
+          <li>
+            <label>Y-Axis Label:
+              <input type="text" id="y_axis" value="y-axis" onfocus="this.value=''" name="y_axis">
+            </label>
+          </li>
+          <li>
+            <label>Bar Chart Title:
+              <input type="text" id="barChartTitle" value="" onfocus="this.value=''" name="barChartTitle">
+            </label>
+          </li>
+          <li>
+            <label>Bar Chart Title Color:
+              <input type="text" id="titleColor" value="grey" onfocus="this.value=''" name="titleColor">
+            </label>
+          </li>
+          <li>
+            <label>Bar Chart Title Font-Size:
+              <input type="text" id="titleFontSize" value="40" onfocus="this.value=''" name="titleFontSize">
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button id="btn1">submit your values</button>
+  </div>
+  <footer>
+    <a href="https://mrbaker1917.com/editor/" target="_blank" title="Click to go my website!">Designed by
+      mrbaker1917</a>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script src="bar_charts.js"></script>
+</body>
+
+</html>
