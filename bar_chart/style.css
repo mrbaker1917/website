@@ -62,7 +62,6 @@ h1 {
     font-weight: bold;
     color: beige;
     margin: 0;
-    margin-right: -5px;
 }
 #optionsUl {
   padding: 5px;
@@ -153,7 +152,6 @@ a:hover {
 .y-axis {
     border-right: 1px solid beige;
     display: inline-block;
-    /* height: 500px; */
     width: 8%;
 }
 
