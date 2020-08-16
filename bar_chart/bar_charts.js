@@ -11,7 +11,7 @@ function drawBarChart(data, options, element) {
   ticks.html("<ul></ul>");
   for (let i = ticksHeight - 1; i > 0; i--) {
     if (i % 5 == 0) {
-      ticks.append((String((i / (chartHeight / (500 / 33)) * Math.max(...data) * 1.1).toFixed(1)) + "__"));
+      ticks.append((String((i / (chartHeight / (500 / 33)) * Math.max(...data) * 1.1).toFixed(1)) + "_"));
     } else {
       ticks.append(makeTicks("___"));
     }
