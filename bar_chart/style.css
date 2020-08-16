@@ -74,7 +74,7 @@ h1 {
 #titleInput {
   border: 1px dotted white;
   width: 60%;
-  margin: auto;
+  margin: 10px auto;
   padding: 5px;
   font-weight: bold;
   text-align: center;
@@ -126,7 +126,7 @@ a:hover {
     height: 500px;
     display: flex;
     align-items: flex-end;
-    margin: 15px 10px 0px 15px;
+    /* margin: 1% 0; */
     width: 98%;
 }
 #barchart {
@@ -166,7 +166,7 @@ a:hover {
 .x-axis {
     border: 1px solid white;
     width: 98%;
-    margin: 0px 10px 0px 15px;
+    /* margin: 1%; */
 }
 
 footer {
@@ -196,4 +196,20 @@ h6 {
     display: inline-block;
     padding: 2px 15px;
     border-radius: 3px;
+}
+
+@media only screen and (max-width: 800px) {
+  .y-axis {
+    width: 15%;
+  }
+  #labelsPos {
+    margin-left: 15%;
+    z-index: 5;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #ticks {
+    margin-left: -20px;
+  }
 }
