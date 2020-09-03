@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>blur</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link rel="shortcut icon" href="./favicon.ico" type="x-icon" />
+</head>
+
+<body>
+
+    <form>
+        <input id="target" type="text" value="Field 1">
+        <input type="text" value="Field 2">
+    </form>
+    <div id="other">
+        Trigger the handler
+    </div>
+    The event handler can be bound to the first input field:
+
+
+    <script>
+        $("#target").blur(function () {
+            alert("Handler for .blur() called.");
+        });
+    </script>
+
+</body>
+
+</html>
