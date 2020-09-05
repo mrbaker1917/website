@@ -126,8 +126,7 @@ a:hover {
     height: 500px;
     display: flex;
     align-items: flex-end;
-    /* margin: 1% 0; */
-    width: 98%;
+    width: 100%;
 }
 #barchart {
     height: 500px;
@@ -144,9 +143,7 @@ a:hover {
 #valsForm {
     border: 1px solid white;
     justify-content: center;
-    margin: 15px 10px 10px 15px;
-    padding: 5px;
-    width: 97%;
+    width: 100%;
 }
 
 .y-axis {
@@ -165,17 +162,17 @@ a:hover {
 
 .x-axis {
     border: 1px solid white;
-    width: 98%;
-    /* margin: 1%; */
+    width: 100%;
 }
 
 footer {
     width: 90%;
     padding: 10px;
     text-align: center;
-    margin: auto;
+    margin: 10px auto;
     background-color: maroon;
     border-radius: 5px;
+
 }
 h6 {
     font-size: medium;
