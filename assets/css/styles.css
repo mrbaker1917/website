@@ -18,12 +18,18 @@ ul, nav {
 
 a {
     text-decoration: none;
-    opacity: 0.5;
+    opacity: 0.8;
     color: #fff;
 }
 
 ul a {
     color: #3f51b5;
+}
+
+ul img {
+    padding: 10px;
+    border: 1px solid navy;
+    margin-top: 20px;
 }
 
 a:hover {
