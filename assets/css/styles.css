@@ -22,6 +22,10 @@ a {
     color: #fff;
 }
 
+ul a {
+    color: #3f51b5;
+}
+
 a:hover {
     opacity: 1;
 }
