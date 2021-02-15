@@ -354,3 +354,9 @@ footer p {
         margin: 0 8px;
     }
 }
+
+@media (max-width: 470px) {
+    nav {
+        margin-top: -20px;
+    }
+}
