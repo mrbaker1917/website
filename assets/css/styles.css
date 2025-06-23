@@ -141,10 +141,10 @@ header nav li {
 
 .hero {
     position: relative;
-    justify-content: center;
+    justify-content: top;
     text-align: center;
     min-height: 100vh;
-    color: #fff;
+    color: black;
 }
     
     .hero .background-image {
